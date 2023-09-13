@@ -3,9 +3,7 @@ use rs_template::init_telemetry;
 
 #[derive(Parser, Debug)]
 #[command(author, version, about)]
-struct App {
-
-}
+struct App {}
 
 #[tokio::main]
 async fn main() {
