@@ -1,0 +1,15 @@
+[package]
+name = "rs-template"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.3", features = ["derive", "wrap_help"] }
+serde = { version = "1.0.188", features = ["derive"] }
+thiserror = "1.0.48"
+tokio = { version = "1.32.0", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.37"
+tracing-futures = "0.2.5"
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
