@@ -7,6 +7,7 @@ struct App {}
 
 #[tokio::main]
 async fn main() {
+    dotenvy::dotenv().ok();
     init_telemetry();
 
     let app = App::parse();
