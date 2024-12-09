@@ -17,4 +17,4 @@ thiserror = "2.0.3"
 tokio = { version = "1.41.1", features = ["macros", "rt-multi-thread"] }
 tracing = "0.1.41"
 tracing-futures = "0.2.5"
-tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
